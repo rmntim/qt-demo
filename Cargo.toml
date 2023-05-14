@@ -1,0 +1,15 @@
+[package]
+name = "qt-demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nrot = "2.0.0"
+cxx = "1.0.94"
+cxx-qt = "0.5.2"
+cxx-qt-lib = "0.5.2"
+
+[build-dependencies]
+cxx-qt-build = "0.5.2"
