@@ -1,5 +1,7 @@
 name: QT Demo
 
+on: push
+
 jobs:
   code_quality:
     name: Code quality
